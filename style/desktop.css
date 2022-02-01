@@ -1,0 +1,122 @@
+/*Defining animations*/
+@keyfraes css1 {
+	from {background-color: navajowhite;}
+	to {background-color: black;}
+}
+@keyfrmes css2 {
+	0% {font-size: 1em;}
+	50% {font-size: 2em;}
+}
+/*Styling body*/
+body {
+	background-color: #000;
+	font-family: monospace;
+	font-size: 130%;
+	color: yellowgreen;
+	/*adding animation*/
+	animation-name: css1;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+main {
+	float: left;
+}
+h1 {
+	text-align: center;
+	color: cadetblue;
+}
+h1 img {
+	height: 80px;
+	width: 120px;
+}
+h2 {
+	margin: 20px 40% 20px 80px;
+	font-size: 2em;
+	clear: both;
+}
+h3 {
+	margin: 20px 40% 20px 80px;
+	font-size: 1.5em;
+}
+header {
+	margin: 20px 40% 20px 80px;
+	font-size: 1.5em;
+}
+h2, h3, header {
+	color: forestgreen;
+}
+nav {
+	text-align: center;
+	/*adding animation*/
+	animation-name: css2;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+nav li {
+	list-style-type: none;
+}
+nav a {
+	color: limegreen;
+}
+/*Using pseudo-class*/
+a:hover {
+	text-decoration: none;
+	font-size: 1.25em;
+	color: orangered;
+}
+.inline {
+	display: inline-block;
+	padding: 50px;
+}
+#me {
+	float: right;
+	height: 300px;
+	width: 400px;
+}
+#description {
+	margin: 20px 48% 20px 170px;
+}
+#achievement {
+	margin: 20px 48% 20px 170px;
+}
+footer {
+	color: teal;
+	font-size: 1.5em;
+	text-align: center;
+}
+div {
+	margin-left: 100px;
+}
+aside {
+	float: right;
+	margin: 30px 100px 0px 0px;
+}
+aside img {
+	height: 300px;
+	width: 400px;
+}
+figcaption {
+	text-align: center;
+}
+article {
+	text-align: center;
+}
+table {
+	margin-left: 10%;
+	empty-cells: show;
+}
+table td {
+	border: 1px solid mediumpurple;
+}
+.blueCell {
+	background-color: blue;
+}
+.cos {
+	background-color: teal;
+}
+#ict {
+	background-color: #272727;
+}
+.inf {
+	background-color: olive;
+}
